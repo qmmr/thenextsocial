@@ -76,8 +76,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="READEME.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/READEME.md">
+      <file leaf-file-name="READEME.markdown" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/READEME.markdown">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="42" selection-start="59" selection-end="59" vertical-scroll-proportion="0.040332146">
               <folding />
@@ -86,6 +86,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
@@ -332,6 +337,13 @@
     </servers>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -477,7 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/READEME.md">
+    <entry file="file://$PROJECT_DIR$/READEME.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="42" selection-start="59" selection-end="59" vertical-scroll-proportion="0.040332146">
           <folding />
