@@ -67,10 +67,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.020166073">
+            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="READEME.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/READEME.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="42" selection-start="59" selection-end="59" vertical-scroll-proportion="0.040332146">
               <folding />
             </state>
           </provider>
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/application/controllers/AboutController.php" />
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/READEME.md" />
       </list>
     </option>
   </component>
@@ -462,7 +472,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.020166073">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/READEME.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="59" selection-end="59" vertical-scroll-proportion="0.040332146">
           <folding />
         </state>
       </provider>
