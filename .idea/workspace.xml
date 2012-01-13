@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="READEME.markdown" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/READEME.markdown">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="42" selection-start="59" selection-end="59" vertical-scroll-proportion="0.040332146">
+            <state line="2" column="50" selection-start="67" selection-end="67" vertical-scroll-proportion="0.040332146">
               <folding />
             </state>
           </provider>
@@ -107,6 +107,7 @@
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/READEME.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -489,9 +490,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/READEME.markdown">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="59" selection-end="59" vertical-scroll-proportion="0.040332146">
+        <state line="2" column="50" selection-start="67" selection-end="67" vertical-scroll-proportion="0.040332146">
           <folding />
         </state>
       </provider>
