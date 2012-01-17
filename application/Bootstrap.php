@@ -81,5 +81,34 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         // Return it so that it can be stored by the bootstrap
         return $autoLoader;
     }
+
+    function _initView()
+    {
+
+        $autoloader = Zend_Loader_Autoloader::getInstance();
+        $autoloader->registerNamespace('Twig');
+        $autoloader->registerNamespace('Zwig');
+
+        $view = new Zwig_View(array(
+            'encoding' => 'UTF-8',
+            'helperPath' => array(),
+        ));
+
+        $loader = new Twig_Loader_Filesystem(array());
+        $zwig = new Zwig_Environment($view, $loader, array(
+            'cache' => APPLICATION_PATH . '/cache/twig/',
+            'auto_reload' => true,
+        ));
+
+        $view->setEngine($zwig);
+        $view->doctype(Zend_View_Helper_Doctype::HTML5);
+
+        $viewRenderer = new Zend_Controller_Action_Helper_ViewRenderer($view, array(
+            'viewSuffix' => 'twig',
+        ));
+        Zend_Controller_Action_HelperBroker::addHelper($viewRenderer);
+
+        return $view;
+    }
 }
 
